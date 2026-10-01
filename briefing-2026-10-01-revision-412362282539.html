@@ -278,8 +278,8 @@ for(const item of payload.series){
   for(const btn of card.querySelectorAll('[data-chart-action]')){const action=btn.dataset.chartAction;btn.disabled=action==='zoom-in'?range<=minimum:action==='zoom-out'?range>=n:false;}
   choose(selected);
  }
- function point(e){const r=svg.getBoundingClientRect(),height=r.height||plot.height,scale=Math.min(r.width/plot.width,height/plot.height),offsetX=(r.width-plot.width*scale)/2,offsetY=(height-plot.height*scale)/2;return{x:(e.clientX-r.left-offsetX)/scale,y:((e.clientY??r.top??0)-(r.top??0)-offsetY)/scale};}
- function indexAt(x){return start+clamp((x-plot.left)/plot.step-.5,0,range-1);}
+ function point(e){const r=svg.getBoundingClientRect();return{x:(e.clientX-r.left)*plot.width/r.width,y:((e.clientY??r.top??0)-(r.top??0))*plot.height/(r.height||plot.height)};}
+ function indexAt(x){return start+clamp((x-plot.left)/plot.step,0,range-1);}
  function zoom(next,x,base=null){
   if(!plot.step)return;
   const count=clamp(Math.round(next),minimum,n),fraction=clamp((x-plot.left)/(plot.right-plot.left),0,1),anchor=base?base.anchor:start+fraction*range;

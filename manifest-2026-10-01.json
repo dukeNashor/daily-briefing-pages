@@ -9,7 +9,7 @@
     "available_charts": 14,
     "news": 3
   },
-  "source_html_sha256": "443e430c406e4192c07fe2d1384c5bbc1670f621c9a96d5aa578eb239a7eef2e",
+  "source_html_sha256": "6fa6d76e2f11a68a1f64b4fcba18159a54c0f2c84060cbeb43fe3183d1c5e118",
   "files": [
     {
       "path": "09389e45d8ca51f9.png",
@@ -88,8 +88,8 @@
     },
     {
       "path": "briefing-2026-10-01.html",
-      "bytes": 309306,
-      "sha256": "4123622825391f25d787ff158f0994945a5153c6aa125f4d4d30a85a61e9de08"
+      "bytes": 309439,
+      "sha256": "2915e77ee63470f1258112a2c6f9439bc0247489d721442775239d09c7ac2973"
     },
     {
       "path": "cb1c07ac0674ac6d.png",
