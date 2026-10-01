@@ -3,8 +3,9 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%232459a6%22/%3E%3Cpath d=%22M18 13v38m-6-28h12v17H12m31-26v38m-6-29h12v17H37%22 stroke=%22white%22 fill=%22none%22 stroke-width=%223%22/%3E%3C/svg%3E">
 <style>
 :root{color-scheme:light;--ink:#172536;--muted:#58677a;--blue:#2459a6;--orange:#9b571f;--line:#dbe2eb}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f6fa;color:var(--ink);font:16px/1.6 system-ui,"Noto Sans CJK SC",sans-serif}main{max-width:1160px;margin:auto;padding:36px 24px 70px}h1{font-size:clamp(26px,4vw,38px);line-height:1.2;margin:12px 0}h2{font-size:25px;margin:36px 0 16px}h3{font-size:21px;margin:0}a{color:var(--blue);overflow-wrap:anywhere}.meta,.source,.hint{color:var(--muted);font-size:13px}.eyebrow{font-weight:700;letter-spacing:.1em;color:var(--blue);font-size:12px}.status{display:inline-block;background:#fff0d9;color:#744008;padding:4px 10px;border-radius:5px;font-size:13px}.sample{border-left:3px solid var(--orange);padding:10px 16px;background:#fff9ef}[hidden]{display:none!important}.tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:24px 0 18px}.section-tab{min-height:48px;padding:10px 8px;border:1px solid var(--line);border-radius:7px;background:white;color:var(--ink);font:inherit;font-weight:600;cursor:pointer}.section-tab[aria-selected=true]{background:var(--blue);border-color:var(--blue);color:white}.tab-panel{scroll-margin-top:18px}.tab-panel:focus-visible{outline:3px solid #d39339;outline-offset:4px}.tab-panel h2{margin-top:20px}.card{background:white;border:1px solid var(--line);border-radius:10px;padding:24px;margin:18px 0;scroll-margin-top:16px}.card-head{display:flex;align-items:start;justify-content:space-between;gap:20px}.quote{text-align:right;white-space:nowrap}.quote strong{font-size:29px;font-variant-numeric:tabular-nums;font-weight:650;line-height:1.2}.change{font-weight:600;font-variant-numeric:tabular-nums}.up{color:var(--blue)}.down{color:var(--orange)}.quote-meta{margin-top:5px}.latest{font-size:14px;background:#f5f7fb;padding:10px 12px;margin:16px 0 8px;border-radius:5px;font-variant-numeric:tabular-nums}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:18px}.ranges{display:flex;gap:6px}.ranges button{border:1px solid #c4cfdf;background:white;color:var(--ink);padding:9px 12px;min-height:44px;border-radius:5px;font:inherit;font-size:14px;cursor:pointer}.ranges button[aria-pressed=true]{background:var(--blue);color:white;border-color:var(--blue)}button:focus-visible,svg:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #d39339;outline-offset:3px}.chart-frame{position:relative;width:100%;margin-top:8px}.candle-chart{display:block;width:100%;height:auto;min-height:230px;touch-action:pan-y;border-radius:4px}.selection{padding:10px 12px;background:#f5f7fb;border-radius:5px;min-height:68px;font-size:14px}.selection dl{display:flex;gap:22px;flex-wrap:wrap;margin:5px 0 0;font-variant-numeric:tabular-nums}.selection dl>div{display:flex;gap:7px}.selection dt{color:var(--muted)}.selection dd{margin:0;font-weight:650}.selection-date{font-weight:650}.source{margin-top:14px}.source p{margin:5px 0}.issues{margin:10px 0;color:#744008;font-size:13px}.news-grid{display:grid;grid-template-columns:1fr;gap:20px}.news-grid .card{margin:0;padding:26px 30px}.news-grid h3{font-size:23px}.news-grid p{font-size:16px}.news-grid .source p{font-size:13px}.news-body p{margin:15px 0}.news-grid .news-image{max-width:800px}.news-image{width:100%;height:auto;margin:14px 0 4px}.kicker{font-size:13px;color:var(--blue);font-weight:700}.legend{font-size:13px;color:var(--muted)}.fallback img{width:100%;height:auto}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}footer{margin-top:34px;padding-top:22px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}details{margin-top:12px}summary{cursor:pointer}.table-wrap{overflow:auto;max-height:360px}table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}th,td{padding:8px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}th:first-child,td:first-child{text-align:left}thead{position:sticky;top:0;background:white}
+.instrument-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 6px}.instrument-tab{min-height:44px;max-width:100%;padding:9px 14px;border:1px solid #c4cfdf;border-radius:6px;background:white;color:var(--ink);font:inherit;font-size:14px;font-weight:600;cursor:pointer}.instrument-tab[aria-selected=true]{background:#e9f0fb;color:#174c91;border-color:var(--blue);box-shadow:inset 0 -2px var(--blue)}.market-card:focus-visible{outline:3px solid #d39339;outline-offset:4px}
 @media(max-width:720px){main{padding:22px 12px 50px}.card{padding:17px 12px}.card-head{gap:10px}.quote strong{font-size:23px}h3{font-size:19px}.card-head>div:first-child{min-width:0}.news-grid{grid-template-columns:1fr}.news-grid .card{padding:20px 17px}.news-grid h3{font-size:21px}.selection dl{gap:7px 18px}.selection dl>div{min-width:40%}.toolbar{gap:7px}.legend{font-size:12px}.candle-chart{min-height:240px}.latest{font-size:13px}.quote-meta{font-size:12px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:white}main{max-width:none;padding:0}.card{break-inside:avoid;border:0;padding:0}.tabs,.ranges,.hint,details{display:none!important}.news-grid{display:block}.news-grid .card{margin:12px 0}.candle-chart{max-height:260px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:white}main{max-width:none;padding:0}.card{break-inside:avoid;border:0;padding:0}.tabs,.instrument-tabs,.ranges,.hint,details{display:none!important}.news-grid{display:block}.news-grid .card{margin:12px 0}.candle-chart{max-height:260px}}
 </style></head><body><main>
 <header><div class="eyebrow">DAILY BRIEFING</div>
 <h1>每日资讯与市场简报</h1><p class="meta">2026-10-01 · 截至 2026-10-01 10:16 UTC+08:00 (Asia/Taipei)</p>
@@ -12,7 +13,13 @@
 <p>新闻详读修订版。新闻覆盖台湾时间9月30日全天，行情按实际截止时间刷新；美国9月30日午后消息不计入本期。配图为编辑文字卡。</p>
 <div id="briefing-tabs" class="tabs" role="tablist" aria-label="简报分类" aria-orientation="horizontal" hidden><button type="button" class="section-tab" id="tab-news" role="tab" aria-controls="news" aria-selected="true" tabindex="0">AI 新闻</button><button type="button" class="section-tab" id="tab-markets" role="tab" aria-controls="markets" aria-selected="false" tabindex="-1">指数与股票</button><button type="button" class="section-tab" id="tab-fx" role="tab" aria-controls="fx" aria-selected="false" tabindex="-1">汇率</button></div></header><noscript><p class="hint">JavaScript 未启用，所有分类依次展示；可直接查看下方报价与 OHLC 数据表。</p></noscript>
 <section id="markets" class="tab-panel" role="tabpanel" aria-labelledby="tab-markets" tabindex="0"><h2>指数与股票</h2><p class="hint">默认显示最近 20 个已验证交易日。悬停、轻点蜡烛或聚焦图表后用左右键查看 OHLC；Home / End 跳至首尾。各图独立纵轴，空心表示收盘不低于开盘，实心表示下跌。</p>
-<article class="card market-card" id="series-nasdaq_composite"><div class="card-head"><div><h3>Nasdaq Composite</h3><div class="meta">指数点 · 已完成交易日收盘</div></div><div class="quote"><strong>26,861.06</strong><div class="change up">+63.53 (+0.24%)</div></div></div>
+<div class="instrument-tabs" role="tablist" aria-label="指数与股票标的" aria-orientation="horizontal" hidden>
+<button type="button" class="instrument-tab" id="instrument-tab-nasdaq_composite" role="tab" aria-controls="series-nasdaq_composite" aria-selected="true" tabindex="0">Nasdaq Composite</button>
+<button type="button" class="instrument-tab" id="instrument-tab-nasdaq_100" role="tab" aria-controls="series-nasdaq_100" aria-selected="false" tabindex="-1">Nasdaq 100</button>
+<button type="button" class="instrument-tab" id="instrument-tab-sp_500" role="tab" aria-controls="series-sp_500" aria-selected="false" tabindex="-1">S&amp;P 500</button>
+<button type="button" class="instrument-tab" id="instrument-tab-06699_HK" role="tab" aria-controls="series-06699_HK" aria-selected="false" tabindex="-1">06699.HK</button>
+</div>
+<article class="card market-card" id="series-nasdaq_composite" role="tabpanel" aria-labelledby="instrument-tab-nasdaq_composite" tabindex="0"><div class="card-head"><div><h3>Nasdaq Composite</h3><div class="meta">指数点 · 已完成交易日收盘</div></div><div class="quote"><strong>26,861.06</strong><div class="change up">+63.53 (+0.24%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-09-30 · 比较收盘 2026-09-29 · 前值 26,797.54</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 26,892.80  高 H 27,108.20  低 L 26,861.06  收 C 26,861.06</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -23,7 +30,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/%5EIXIC/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 America/New_York · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:14.384017+00:00</p></div></article>
-<article class="card market-card" id="series-nasdaq_100"><div class="card-head"><div><h3>Nasdaq 100</h3><div class="meta">指数点 · 已完成交易日收盘</div></div><div class="quote"><strong>30,408.50</strong><div class="change up">+69.17 (+0.23%)</div></div></div>
+<article class="card market-card" id="series-nasdaq_100" role="tabpanel" aria-labelledby="instrument-tab-nasdaq_100" tabindex="0"><div class="card-head"><div><h3>Nasdaq 100</h3><div class="meta">指数点 · 已完成交易日收盘</div></div><div class="quote"><strong>30,408.50</strong><div class="change up">+69.17 (+0.23%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-09-30 · 比较收盘 2026-09-29 · 前值 30,339.33</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 30,421.68  高 H 30,630.45  低 L 30,408.50  收 C 30,408.50</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -34,7 +41,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/%5ENDX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 America/New_York · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:14.365975+00:00</p></div></article>
-<article class="card market-card" id="series-sp_500"><div class="card-head"><div><h3>S&amp;P 500</h3><div class="meta">指数点 · 已完成交易日收盘</div></div><div class="quote"><strong>7,651.54</strong><div class="change down">-19.30 (-0.25%)</div></div></div>
+<article class="card market-card" id="series-sp_500" role="tabpanel" aria-labelledby="instrument-tab-sp_500" tabindex="0"><div class="card-head"><div><h3>S&amp;P 500</h3><div class="meta">指数点 · 已完成交易日收盘</div></div><div class="quote"><strong>7,651.54</strong><div class="change down">-19.30 (-0.25%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-09-30 · 比较收盘 2026-09-29 · 前值 7,670.84</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 7,688.99  高 H 7,722.88  低 L 7,651.54  收 C 7,651.54</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -45,7 +52,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/%5EGSPC/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 America/New_York · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:14.398680+00:00</p></div></article>
-<article class="card market-card" id="series-06699_HK"><div class="card-head"><div><h3>06699.HK</h3><div class="meta">HKD · 已完成交易日收盘</div></div><div class="quote"><strong>85.40</strong><div class="change up">+1.25 (+1.49%)</div></div></div>
+<article class="card market-card" id="series-06699_HK" role="tabpanel" aria-labelledby="instrument-tab-06699_HK" tabindex="0"><div class="card-head"><div><h3>06699.HK</h3><div class="meta">HKD · 已完成交易日收盘</div></div><div class="quote"><strong>85.40</strong><div class="change up">+1.25 (+1.49%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-09-30 · 比较收盘 2026-09-29 · 前值 84.15</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 82.00  高 H 87.45  低 L 82.00  收 C 85.40</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -60,7 +67,19 @@
 </section>
 <section id="fx" class="tab-panel" role="tabpanel" aria-labelledby="tab-fx" tabindex="0"><h2>汇率</h2><p class="hint">默认显示最近 20 个已验证交易日。悬停、轻点蜡烛或聚焦图表后用左右键查看 OHLC；Home / End 跳至首尾。各图独立纵轴，空心表示收盘不低于开盘，实心表示下跌。</p>
 <p class="meta">统一口径：1 单位外币 = x CNY。CNY 与 CNH 不混用。</p>
-<article class="card market-card" id="series-USDCNY"><div class="card-head"><div><h3>USD/CNY</h3><div class="meta">1 USD = x CNY · 已完成交易日收盘</div></div><div class="quote"><strong>6.70460</strong><div class="change up">+0.00120 (+0.02%)</div></div></div>
+<div class="instrument-tabs" role="tablist" aria-label="汇率标的" aria-orientation="horizontal" hidden>
+<button type="button" class="instrument-tab" id="instrument-tab-USDCNY" role="tab" aria-controls="series-USDCNY" aria-selected="true" tabindex="0">USD/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-EURCNY" role="tab" aria-controls="series-EURCNY" aria-selected="false" tabindex="-1">EUR/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-GBPCNY" role="tab" aria-controls="series-GBPCNY" aria-selected="false" tabindex="-1">GBP/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-JPYCNY" role="tab" aria-controls="series-JPYCNY" aria-selected="false" tabindex="-1">JPY/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-HKDCNY" role="tab" aria-controls="series-HKDCNY" aria-selected="false" tabindex="-1">HKD/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-TWDCNY" role="tab" aria-controls="series-TWDCNY" aria-selected="false" tabindex="-1">TWD/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-AUDCNY" role="tab" aria-controls="series-AUDCNY" aria-selected="false" tabindex="-1">AUD/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-CADCNY" role="tab" aria-controls="series-CADCNY" aria-selected="false" tabindex="-1">CAD/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-SGDCNY" role="tab" aria-controls="series-SGDCNY" aria-selected="false" tabindex="-1">SGD/CNY</button>
+<button type="button" class="instrument-tab" id="instrument-tab-CHFCNY" role="tab" aria-controls="series-CHFCNY" aria-selected="false" tabindex="-1">CHF/CNY</button>
+</div>
+<article class="card market-card" id="series-USDCNY" role="tabpanel" aria-labelledby="instrument-tab-USDCNY" tabindex="0"><div class="card-head"><div><h3>USD/CNY</h3><div class="meta">1 USD = x CNY · 已完成交易日收盘</div></div><div class="quote"><strong>6.70460</strong><div class="change up">+0.00120 (+0.02%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-09-30 · 比较收盘 2026-09-29 · 前值 6.70340</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 6.70510  高 H 6.70560  低 L 6.70310  收 C 6.70460</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -71,7 +90,7 @@
 <div class="source">
 <p>来源：<a href="https://www.investing.com/currencies/usd-cny-historical-data" target="_blank" rel="noopener noreferrer">Investing.com (public historical-data endpoint)</a></p>
 <p>交易日时区 UTC · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:23.603010+00:00</p></div></article>
-<article class="card market-card" id="series-EURCNY"><div class="card-head"><div><h3>EUR/CNY</h3><div class="meta">1 EUR = x CNY · 即时报价</div></div><div class="quote"><strong>7.59110</strong><div class="change down">-0.01040 (-0.14%)</div></div></div>
+<article class="card market-card" id="series-EURCNY" role="tabpanel" aria-labelledby="instrument-tab-EURCNY" tabindex="0"><div class="card-head"><div><h3>EUR/CNY</h3><div class="meta">1 EUR = x CNY · 即时报价</div></div><div class="quote"><strong>7.59110</strong><div class="change down">-0.01040 (-0.14%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 7.60150</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 7.60150  高 H 7.62658  低 L 7.59383  收 C 7.60150</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -83,7 +102,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/EURCNY%3DX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 Europe/London · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:18.586053+00:00</p></div></article>
-<article class="card market-card" id="series-GBPCNY"><div class="card-head"><div><h3>GBP/CNY</h3><div class="meta">1 GBP = x CNY · 即时报价</div></div><div class="quote"><strong>8.88720</strong><div class="change up">+0.02021 (+0.23%)</div></div></div>
+<article class="card market-card" id="series-GBPCNY" role="tabpanel" aria-labelledby="instrument-tab-GBPCNY" tabindex="0"><div class="card-head"><div><h3>GBP/CNY</h3><div class="meta">1 GBP = x CNY · 即时报价</div></div><div class="quote"><strong>8.88720</strong><div class="change up">+0.02021 (+0.23%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 8.86699</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 8.86699  高 H 8.92145  低 L 8.86375  收 C 8.86699</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -95,7 +114,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/GBPCNY%3DX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 Europe/London · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:22.068788+00:00</p></div></article>
-<article class="card market-card" id="series-JPYCNY"><div class="card-head"><div><h3>JPY/CNY</h3><div class="meta">1 JPY = x CNY · 即时报价</div></div><div class="quote"><strong>0.04230</strong><div class="change down">-0.00028 (-0.66%)</div></div></div>
+<article class="card market-card" id="series-JPYCNY" role="tabpanel" aria-labelledby="instrument-tab-JPYCNY" tabindex="0"><div class="card-head"><div><h3>JPY/CNY</h3><div class="meta">1 JPY = x CNY · 即时报价</div></div><div class="quote"><strong>0.04230</strong><div class="change down">-0.00028 (-0.66%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 0.04258</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 0.04258  高 H 0.04286  低 L 0.04258  收 C 0.04258</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -107,7 +126,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/JPYCNY%3DX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 Europe/London · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:22.095020+00:00</p></div></article>
-<article class="card market-card" id="series-HKDCNY"><div class="card-head"><div><h3>HKD/CNY</h3><div class="meta">1 HKD = x CNY · 即时报价</div></div><div class="quote"><strong>0.85390</strong><div class="change down">-0.00039 (-0.05%)</div></div></div>
+<article class="card market-card" id="series-HKDCNY" role="tabpanel" aria-labelledby="instrument-tab-HKDCNY" tabindex="0"><div class="card-head"><div><h3>HKD/CNY</h3><div class="meta">1 HKD = x CNY · 即时报价</div></div><div class="quote"><strong>0.85390</strong><div class="change down">-0.00039 (-0.05%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 0.85429</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 0.85433  高 H 0.85444  低 L 0.85421  收 C 0.85429</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -118,7 +137,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/HKDCNY%3DX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 Europe/London · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:26.370057+00:00</p></div></article>
-<article class="card market-card" id="series-TWDCNY"><div class="card-head"><div><h3>TWD/CNY</h3><div class="meta">1 TWD = x CNY · 即时报价</div></div><div class="quote"><strong>0.20940</strong><div class="change down">-0.00099 (-0.47%)</div></div></div>
+<article class="card market-card" id="series-TWDCNY" role="tabpanel" aria-labelledby="instrument-tab-TWDCNY" tabindex="0"><div class="card-head"><div><h3>TWD/CNY</h3><div class="meta">1 TWD = x CNY · 即时报价</div></div><div class="quote"><strong>0.20940</strong><div class="change down">-0.00099 (-0.47%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 0.21039</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 0.21036  高 H 0.21055  低 L 0.21013  收 C 0.21039</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -130,7 +149,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/TWDCNY%3DX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 Europe/London · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:26.388429+00:00</p></div></article>
-<article class="card market-card" id="series-AUDCNY"><div class="card-head"><div><h3>AUD/CNY</h3><div class="meta">1 AUD = x CNY · 即时报价</div></div><div class="quote"><strong>4.65330</strong><div class="change down">-0.03103 (-0.66%)</div></div></div>
+<article class="card market-card" id="series-AUDCNY" role="tabpanel" aria-labelledby="instrument-tab-AUDCNY" tabindex="0"><div class="card-head"><div><h3>AUD/CNY</h3><div class="meta">1 AUD = x CNY · 即时报价</div></div><div class="quote"><strong>4.65330</strong><div class="change down">-0.03103 (-0.66%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 4.68433</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 4.68466  高 H 4.68855  低 L 4.65812  收 C 4.68433</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -142,7 +161,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/AUDCNY%3DX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 Europe/London · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:26.355277+00:00</p></div></article>
-<article class="card market-card" id="series-CADCNY"><div class="card-head"><div><h3>CAD/CNY</h3><div class="meta">1 CAD = x CNY · 即时报价</div></div><div class="quote"><strong>4.70640</strong><div class="change down">-0.01672 (-0.35%)</div></div></div>
+<article class="card market-card" id="series-CADCNY" role="tabpanel" aria-labelledby="instrument-tab-CADCNY" tabindex="0"><div class="card-head"><div><h3>CAD/CNY</h3><div class="meta">1 CAD = x CNY · 即时报价</div></div><div class="quote"><strong>4.70640</strong><div class="change down">-0.01672 (-0.35%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 4.72312</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 4.72308  高 H 4.73448  低 L 4.71645  收 C 4.72312</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -153,7 +172,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/CADCNY%3DX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 Europe/London · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:30.452769+00:00</p></div></article>
-<article class="card market-card" id="series-SGDCNY"><div class="card-head"><div><h3>SGD/CNY</h3><div class="meta">1 SGD = x CNY · 即时报价</div></div><div class="quote"><strong>5.24040</strong><div class="change down">-0.00523 (-0.10%)</div></div></div>
+<article class="card market-card" id="series-SGDCNY" role="tabpanel" aria-labelledby="instrument-tab-SGDCNY" tabindex="0"><div class="card-head"><div><h3>SGD/CNY</h3><div class="meta">1 SGD = x CNY · 即时报价</div></div><div class="quote"><strong>5.24040</strong><div class="change down">-0.00523 (-0.10%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 5.24563</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 5.24565  高 H 5.25443  低 L 5.24348  收 C 5.24563</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -165,7 +184,7 @@
 <div class="source">
 <p>来源：<a href="https://finance.yahoo.com/quote/SGDCNY%3DX/history/" target="_blank" rel="noopener noreferrer">Yahoo Finance (public chart endpoint)</a></p>
 <p>交易日时区 Europe/London · 来源直接报告 OHLC（非调整收盘价） · 获取 2026-10-01T02:16:30.426259+00:00</p></div></article>
-<article class="card market-card" id="series-CHFCNY"><div class="card-head"><div><h3>CHF/CNY</h3><div class="meta">1 CHF = x CNY · 即时报价</div></div><div class="quote"><strong>8.01520</strong><div class="change down">-0.01966 (-0.24%)</div></div></div>
+<article class="card market-card" id="series-CHFCNY" role="tabpanel" aria-labelledby="instrument-tab-CHFCNY" tabindex="0"><div class="card-head"><div><h3>CHF/CNY</h3><div class="meta">1 CHF = x CNY · 即时报价</div></div><div class="quote"><strong>8.01520</strong><div class="change down">-0.01966 (-0.24%)</div></div></div>
 <p class="meta quote-meta">报价日期 2026-10-01 · 比较收盘 2026-09-30 · 前值 8.03486</p>
 <div class="latest"><strong>最近蜡烛 2026-09-30</strong> · 开 O 8.03486  高 H 8.05334  低 L 8.02500  收 C 8.03486</div>
 <div class="toolbar"><div class="ranges" role="group" aria-label="显示交易日数量"><button type="button" data-sessions="5" aria-pressed="false">5 日</button><button type="button" data-sessions="20" aria-pressed="true">20 日</button><button type="button" data-sessions="60" aria-pressed="false">60 日</button></div><span class="legend">空心 涨或平 · 实心 跌 · 独立纵轴</span></div>
@@ -192,14 +211,13 @@
 const payload=JSON.parse(document.getElementById('chart-data').textContent);
 const ns='http://www.w3.org/2000/svg';
 const chartRefreshers=[];
-const tabs=Array.from(document.querySelectorAll('.section-tab'));
-const tablist=document.getElementById('briefing-tabs');
+function setupTabs(tablist,tabs){
 function activateTab(index,focus=false){
  for(const [i,tab] of tabs.entries()){
   const active=i===index;tab.setAttribute('aria-selected',String(active));tab.setAttribute('tabindex',active?'0':'-1');
   const section=document.getElementById(tab.getAttribute('aria-controls'));if(section)section.hidden=!active;
  }
- if(focus)tabs[index].focus({preventScroll:true});
+ if(focus){tabs[index].focus({preventScroll:true});tabs[index].scrollIntoView?.({block:'nearest',inline:'nearest'});}
  for(const refresh of chartRefreshers)refresh();
 }
 for(const [index,tab] of tabs.entries()){
@@ -211,6 +229,9 @@ for(const [index,tab] of tabs.entries()){
  });
 }
 if(tabs.length){activateTab(0);if(tablist)tablist.hidden=false;}
+}
+setupTabs(document.getElementById('briefing-tabs'),Array.from(document.querySelectorAll('.section-tab')));
+for(const tablist of document.querySelectorAll('.instrument-tabs'))setupTabs(tablist,Array.from(tablist.querySelectorAll('.instrument-tab')));
 
 function node(tag,attrs,text){const e=document.createElementNS(ns,tag);for(const [k,v] of Object.entries(attrs||{}))e.setAttribute(k,String(v));if(text!==undefined)e.textContent=text;return e;}
 const fmt=(v,kind)=>Number(v).toLocaleString('en-US',{minimumFractionDigits:kind==='fx'?5:2,maximumFractionDigits:kind==='fx'?5:2});

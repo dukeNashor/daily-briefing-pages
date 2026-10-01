@@ -9,13 +9,8 @@
     "available_charts": 14,
     "news": 3
   },
-  "source_html_sha256": "fc1df4cd555f6ea9f39c4db0954bcdba0733b0a07970262f46ecf77f5532c70a",
+  "source_html_sha256": "f14e62bf50e7094c95a2c776c2a6cfd5fd544eed120add674678204913e72983",
   "files": [
-    {
-      "path": ".nojekyll",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
     {
       "path": "09389e45d8ca51f9.png",
       "bytes": 67991,
@@ -92,14 +87,9 @@
       "sha256": "aadc4623e10633421fc30551c2c2ac7d79195e92787d7cea9c8cd6a9efe3e055"
     },
     {
-      "path": "archive.html",
-      "bytes": 722,
-      "sha256": "27b9ff99a6534274eb2c5678ab311ec7d83eee37ab62ae3e685acb47b50ed361"
-    },
-    {
       "path": "briefing-2026-10-01.html",
-      "bytes": 290917,
-      "sha256": "0675ac71e4d244b423a68e7a47117c003ff365a0cb98351cc3461d66a29da9c8"
+      "bytes": 295229,
+      "sha256": "84c8350d3510b0c9f8d28bd31d5e79b8f388d98b1e9a227d596e096457c4fd75"
     },
     {
       "path": "cb1c07ac0674ac6d.png",
@@ -110,11 +100,6 @@
       "path": "f5086a615544f3e3.png",
       "bytes": 77845,
       "sha256": "f5086a615544f3e34b6dbcb57f44b123f272c20bb6124ae2d1eae0d243dbf01e"
-    },
-    {
-      "path": "index.html",
-      "bytes": 290917,
-      "sha256": "0675ac71e4d244b423a68e7a47117c003ff365a0cb98351cc3461d66a29da9c8"
     }
   ]
 }
