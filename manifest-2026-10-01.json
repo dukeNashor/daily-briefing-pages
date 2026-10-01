@@ -9,27 +9,12 @@
     "available_charts": 14,
     "news": 3
   },
-  "source_html_sha256": "6fa6d76e2f11a68a1f64b4fcba18159a54c0f2c84060cbeb43fe3183d1c5e118",
+  "source_html_sha256": "76f506c5b6381010d6127df9a657e1f169c4e0acedd49568137739335f832192",
   "files": [
-    {
-      "path": "09389e45d8ca51f9.png",
-      "bytes": 67991,
-      "sha256": "09389e45d8ca51f98bac558188ad629c67e881e7a729aaff53daaab8d953e75d"
-    },
     {
       "path": "2315a00bbe6644ec.png",
       "bytes": 47963,
       "sha256": "2315a00bbe6644ecedafe5c806957d5deb20b4766fdd52b9ea4dde3699499136"
-    },
-    {
-      "path": "372ad6306116ec30.png",
-      "bytes": 77826,
-      "sha256": "372ad6306116ec3083014aa36719a99d9fe2b48cf42f1f706c492fdc44b25962"
-    },
-    {
-      "path": "38157363429730aa.png",
-      "bytes": 71743,
-      "sha256": "38157363429730aa43b7b42accc623b1fb8f858106b36f27bd880b2809170ebc"
     },
     {
       "path": "3926bf8c154d3a7b.png",
@@ -37,69 +22,14 @@
       "sha256": "3926bf8c154d3a7b60458b08f8a508e2847cc208c78c7c6d98330615646d1383"
     },
     {
-      "path": "45ec62ff56490f8f.png",
-      "bytes": 66275,
-      "sha256": "45ec62ff56490f8f58fa53fd26f1ec648d03ad6932752b1a6694a81b60f7aada"
-    },
-    {
-      "path": "46c320c37ea93455.png",
-      "bytes": 69778,
-      "sha256": "46c320c37ea934555e131c203f6d47636fc60aec30ec75792cbadb68a688801f"
-    },
-    {
-      "path": "55597df0c122553f.png",
-      "bytes": 77560,
-      "sha256": "55597df0c122553fa8cffadd04ed446227abc6c4e042ca6ac04d699b297770e2"
-    },
-    {
       "path": "6fd3df9ccf690c22.png",
       "bytes": 41075,
       "sha256": "6fd3df9ccf690c22d72ea1d0ba8704a291af94e1a8f31bdfc9c69da2b0d06d1c"
     },
     {
-      "path": "8172caa930a0bc55.png",
-      "bytes": 88069,
-      "sha256": "8172caa930a0bc558f46ea89e01e6735766fd00035ce13f9f3861ae60d2e69f4"
-    },
-    {
-      "path": "819fa562a2004e73.png",
-      "bytes": 71238,
-      "sha256": "819fa562a2004e73fe8a712321c6373017b4b1bcfc25dea48f6209e3cafa89f9"
-    },
-    {
-      "path": "870070ce8ce414a8.png",
-      "bytes": 78603,
-      "sha256": "870070ce8ce414a8fc00bf7f22c186e1e091036bdcca2d3b182439c498ed7199"
-    },
-    {
-      "path": "96e5a00b6acbf350.png",
-      "bytes": 67962,
-      "sha256": "96e5a00b6acbf3509156aeab0a97d8075cd7f0312a640f6a14a8e9f750818740"
-    },
-    {
-      "path": "a4efaee19df78fdc.png",
-      "bytes": 72097,
-      "sha256": "a4efaee19df78fdc870a0b6dea5bbb92691acfbc39adbc2bf0f7c866799264df"
-    },
-    {
-      "path": "aadc4623e1063342.png",
-      "bytes": 70144,
-      "sha256": "aadc4623e10633421fc30551c2c2ac7d79195e92787d7cea9c8cd6a9efe3e055"
-    },
-    {
       "path": "briefing-2026-10-01.html",
-      "bytes": 309439,
-      "sha256": "2915e77ee63470f1258112a2c6f9439bc0247489d721442775239d09c7ac2973"
-    },
-    {
-      "path": "cb1c07ac0674ac6d.png",
-      "bytes": 71284,
-      "sha256": "cb1c07ac0674ac6d8471502ea19a139f6c986dc63b93e587d62adbf334a6792b"
-    },
-    {
-      "path": "f5086a615544f3e3.png",
-      "bytes": 77845,
-      "sha256": "f5086a615544f3e34b6dbcb57f44b123f272c20bb6124ae2d1eae0d243dbf01e"
+      "bytes": 309921,
+      "sha256": "782f6d7fb0bee27f340295ccce57bf25e2b9bdf837d121141c2f87acb90fb664"
     }
   ]
 }
