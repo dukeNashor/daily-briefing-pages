@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-06",
+  "as_of": "2026-10-06T01:01:22+00:00",
+  "timezone": "Asia/Taipei",
+  "status": "partial",
+  "coverage": {
+    "series": 14,
+    "available_charts": 14,
+    "news": 3
+  },
+  "source_html_sha256": "159d39c5f8f245929824a1934d9be3ea9b08ea782ae1b6de4acc3566cd26f086",
+  "files": [
+    {
+      "path": "5c85152d39e39a1f.png",
+      "bytes": 40816,
+      "sha256": "5c85152d39e39a1ff4d2557d0e40f1b98ce60c80b38c0cd45a7bf211274727a0"
+    },
+    {
+      "path": "908b2206e7c00ede.png",
+      "bytes": 53510,
+      "sha256": "908b2206e7c00ede8926465aa732ac904d46419e641860c14e999700b9c98559"
+    },
+    {
+      "path": "99c209ce32b37e3e.png",
+      "bytes": 43956,
+      "sha256": "99c209ce32b37e3e4a4df5808695ff400989d64f524042521068da31eede6da5"
+    },
+    {
+      "path": "briefing-2026-10-06.html",
+      "bytes": 309956,
+      "sha256": "144e153a7dd715f3d6ede9e6da0d0149b5bc83bb7bf695c3325b3aad1319c8e0"
+    }
+  ]
+}
